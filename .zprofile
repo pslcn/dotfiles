@@ -1,0 +1,1 @@
+/home/halberstram/.config/shell/profile

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# .xinitrc in XDG 
+alias startx="startx \"$XDG_CONFIG_HOME/X11/xinitrc\""
+
+# Add colour to command outputs
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+
+# Alias for simple dotfile management
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

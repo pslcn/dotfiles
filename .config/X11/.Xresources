@@ -1,0 +1,19 @@
+dwm.font: monospace:size=12
+st.font: monospace:size=16
+!st.font: monaco:size=16
+
+dwm.topbar: 1
+
+! bright grey
+dwm.normbordercolor: #808080
+! green
+dwm.selbordercolor: #3cfb17
+
+! horiz inner gap between windows
+dwm.gappih: 5
+! vert inner gap between windows
+dwm.gappiv: 5
+! horiz outer gap between windows
+dwm.gappoh: 0
+! vert outer gap between windows
+dwm.gappov: 0

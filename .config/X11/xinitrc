@@ -1,0 +1,8 @@
+# .xprofile
+[ -f ~/.xprofile ] && . ~/.xprofile
+
+# Xresources
+[[ -f ~/.config/X11/.Xresources ]] && xrdb -merge -I$HOME ~/.config/X11/.Xresources
+
+xbindkeys -f "$XDG_CONFIG_HOME"/xbindkeys/config
+exec dwm
