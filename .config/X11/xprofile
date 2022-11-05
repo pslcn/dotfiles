@@ -2,8 +2,8 @@
 
 setxkbmap -layout gb
 setxkbmap -option caps:escape
-#xsetroot -solid '#000000' 
-setrandbg '/home/halberstram/docs/wallpapers/' &
+xsetroot -solid '#000000' 
+#setrandbg '/home/halberstram/docs/wallpapers/' &
 xset r rate 300 50 
 slstatus &
 unclutter &
