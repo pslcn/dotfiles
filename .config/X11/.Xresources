@@ -1,6 +1,6 @@
 dwm.font: monospace:size=12
-!st.font: monospace:size=14
-st.font: monaco:size=14
+st.font: monospace:size=14
+!st.font: monaco:size=14
 
 dwm.topbar: 1
 
