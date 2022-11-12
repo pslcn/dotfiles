@@ -22,15 +22,16 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 set nu
 syntax on
+set autoindent
 set splitbelow
 set splitright
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set autoindent
 set wrap
 set ignorecase
 set showmatch
 set hlsearch
 set textwidth=0
+set formatoptions-=tc
 filetype plugin indent on
