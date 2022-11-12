@@ -16,18 +16,21 @@ set viewdir=$XDG_STATE_HOME/vim/view | call mkdir(&viewdir, 'p')
 if !has('nvim') | set viminfofile=$XDG_STATE_HOME/vim/viminfo | endif
 
 
-set number
-syntax on
-set hlsearch
-set autoindent
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+set nu
+syntax on
 set splitbelow
 set splitright
-filetype off
-filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
+set autoindent
+set wrap
+set ignorecase
+set showmatch
+set hlsearch
+set textwidth=0
+filetype plugin indent on
