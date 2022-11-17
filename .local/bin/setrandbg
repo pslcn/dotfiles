@@ -1,4 +1,0 @@
-#!/bin/sh
-
-files=(~/docs/wallpapers/*)
-xwallpaper --zoom ${files[ $RANDOM % ${#files[@]} ]}
