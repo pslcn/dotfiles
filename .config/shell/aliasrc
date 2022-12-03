@@ -11,3 +11,6 @@ alias \
 
 # Alias for simple dotfile management
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# YouTube video downloading
+alias ytmp3="yt-dlp -q --progress -x --audio-format mp3 --audio-quality 0"
