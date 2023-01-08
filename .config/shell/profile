@@ -22,7 +22,3 @@ export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 # Python
 export MPLBACKEND=TkAgg # add gui for matplotlib
 export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/pythonrc.py"
-
-# LaTeX Packages
-export TEXMFHOME=$HOME/.texmf//:
-export TEXMFLOCAL=$HOME/.config/texmf//:
