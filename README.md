@@ -1,3 +1,5 @@
+Includes settings for zsh, tmux, and vim. Scripts are in `~/.local/bin/`.
+
 ## Installation
 
 ```bash
