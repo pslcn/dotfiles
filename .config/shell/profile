@@ -7,7 +7,7 @@ export EDITOR="vim"
 export TERMINAL="st"
 export BROWSER="brave"
 
-# ~/ Clean-Up:
+# ~/ Cleanup:
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
@@ -22,3 +22,7 @@ export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 # Python
 export MPLBACKEND=TkAgg # add gui for matplotlib
 export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/pythonrc.py"
+
+# LaTeX Packages
+export TEXMFHOME=$HOME/.texmf//:
+export TEXMFLOCAL=$HOME/.config/texmf//:
