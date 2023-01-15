@@ -15,9 +15,11 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # YouTube video downloading
 alias ytmp3="yt-dlp -q --progress -x --audio-format mp3 --audio-quality 0"
 
-# Alias for loading NVM 
+# Alias for loading NVM (Node.js)
 alias lnvm='[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" \
 	&& [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"' 
 
 # Minimal Shell Prompt
-alias mprompt='export PS1="%n %~ $ "'
+MPROMPT="%~ $ "
+# MPROMPT="%n %~ $ "
+alias mprompt='export PS1="$MPROMPT"'
