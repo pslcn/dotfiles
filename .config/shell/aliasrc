@@ -16,8 +16,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ytmp3="yt-dlp -q --progress -x --audio-format mp3 --audio-quality 0"
 
 # Alias for loading NVM (Node.js)
-alias lnvm='[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh" --no-use \ 
-	&& export PS1="(nvm loaded) ${PS1}"' 
+alias lnvm='[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && export PS1="(nvm loaded) ${PS1}"' 
 
 # Minimal Shell Prompt
 alias mprompt='export PS1="%~ $ "'
