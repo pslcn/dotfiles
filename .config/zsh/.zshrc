@@ -1,8 +1,6 @@
 autoload -U colors && colors 
 
-#PS1="%B%{$fg[green]%}%n@%M %{$fg[blue]%}% ~ %{$fg[blue]%}$%b " 
-PS1="%{$fg[white]%}%n@%M:%{$fg[magenta]%}%~%{$fg[white]%}$%b " 
-#PS1="%{$fg[white]%}%n@%M: %{$fg[white]%}%~ %{$fg[white]%}$%b " 
+PS1="%F{white}%n@%M:%f%F{magenta}%~%f%F{white}$%f " 
 
 stty stop undef # disable ctrl-s to freeze terminal
 
