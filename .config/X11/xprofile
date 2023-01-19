@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# setxkbmap -layout gb -option caps:escape
 setxkbmap -layout gb,ru -option "grp:lalt_lshift_toggle,caps:escape"
 xsetroot -solid '#000000' 
 xset r rate 300 50 
