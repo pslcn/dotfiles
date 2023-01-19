@@ -1,6 +1,7 @@
 autoload -U colors && colors 
 
 PS1="%F{white}%n@%M:%f%F{magenta}%~%f%F{white}$%f " 
+# PS1="[%n@%M %~]$ " 
 
 stty stop undef # disable ctrl-s to freeze terminal
 
