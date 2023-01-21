@@ -1,12 +1,11 @@
 dwm.font: monospace:size=14
-!st.font: monaco:size=14
+
 st.font: JetBrains Mono:size=14
 !st.font: Source Code Pro:size=14
+!st.font: Fira Code:size=14
 
 dwm.borderpx: 2 
-! bright grey
 dwm.normbordercolor: #808080 
-! green
 dwm.selbordercolor: #3cfb17
 
 dwm.topbar: 1
