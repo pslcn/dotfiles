@@ -27,5 +27,7 @@ export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/pythonrc.py"
 export NVM_DIR="$HOME/.config/nvm"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 
-# MPD 
-export MPD_HOST="localhost"
+# Go (for Lf File Manager)
+export GOPATH="$XDG_DATA_HOME"/go
+export GOMODCACHE="$XDG_CACHE_HOME"/go/mod
+export PATH=$GOPATH/bin:$PATH
