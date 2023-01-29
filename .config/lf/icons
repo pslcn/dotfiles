@@ -1,0 +1,4 @@
+# file types (with matching order)
+ln             # LINK
+di             # DIR
+fi             # FILE
