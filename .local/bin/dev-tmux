@@ -1,13 +1,8 @@
 #!/bin/sh
 
-session="WebDev"
-SESSIONEXISTS=$(tmux list-sessions | grep $SESSION)
+tmux new-session -d 
+tmux split-window -h -p 50
+tmux new-window
 
-if [ "$SESSIONEXISTS" = "" ]
-then
-	tmux new-session -d -s $session
-	tmux split-window -v -t $session:0 -p 50
-	tmux new-window -t $session:1
-fi
-
-tmux attach-session -t $session:0
+tmux select-window -t 1
+tmux attach-session -d
