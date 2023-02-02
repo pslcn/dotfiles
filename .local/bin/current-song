@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mpc status | sed 1q | sed 's/.*\///' | sed 's/\.[^.]*$//'
