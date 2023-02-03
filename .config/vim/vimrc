@@ -35,3 +35,14 @@ set hlsearch
 set textwidth=0
 set formatoptions-=tc
 filetype plugin indent on
+
+" Search subfolders for `:find`
+set path+=**
+
+" Display all matching files for tab complete
+set wildmenu
+
+" :find, :ls, :b
+
+" Display current directory file tree
+nnoremap <F2> :!clear && tree -C<CR>
