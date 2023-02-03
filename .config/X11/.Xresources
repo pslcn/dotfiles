@@ -1,8 +1,18 @@
 dwm.font: monospace:size=14
 
-st.font: JetBrains Mono:size=14
+st.font: monospace:size=14
+!st.font: JetBrains Mono:size=14
 !st.font: Source Code Pro:size=14
 !st.font: Fira Code:size=14
+
+! Dark Magenta: #802392
+! Indian Yellow: #E0A458
+! Pale Cerulean: #A7C6DA
+! Yale Blue: #054A91
+! Wintergreen Dream: #53917E
+! Mango: #F5B700
+! Orange Red: #FE621D
+! Indigo Dye: #08415C
 
 dwm.borderpx: 2 
 dwm.normbordercolor: #808080 
