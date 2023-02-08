@@ -45,4 +45,4 @@ set wildmenu
 " :find, :ls, :b
 
 " Display current directory file tree
-nnoremap <F2> :!clear && tree -C<CR>
+nnoremap <F2> :!clear && tree -CF --dirsfirst -L 1<CR>
