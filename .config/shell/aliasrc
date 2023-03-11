@@ -15,6 +15,9 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # YouTube video downloading
 alias ytmp3="yt-dlp -q --progress -x --audio-format mp3 --audio-quality 0"
 
+# Battery percentage
+alias batperc='cat /sys/class/power_supply/BAT0/capacity'
+
 # Alias for loading NVM (Node.js)
 alias lnvm='[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && export PS1="(nvm loaded) ${PS1}"' 
 
