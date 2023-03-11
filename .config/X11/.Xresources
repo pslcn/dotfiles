@@ -8,7 +8,7 @@ st.font: monospace:size=14
 dwm.normbgcolor: #222222
 ! dwm.selbgcolor: #c97d60
 
-dwm.borderpx: 2 
+dwm.borderpx: 3
 dwm.normbordercolor: #808080 
 dwm.selbordercolor: #3cfb17
 
