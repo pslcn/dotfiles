@@ -1,24 +1,11 @@
-dwm.font: monospace:size=14
+dwm.font: JetBrains Mono :size=12
+st.font: JetBrains Mono:size=12
 
-st.font: monospace:size=14
-!st.font: JetBrains Mono:size=14
-!st.font: Source Code Pro:size=14
-!st.font: Fira Code:size=14
-
-dwm.normbgcolor: #222222
-! dwm.selbgcolor: #c97d60
-
-dwm.borderpx: 3
+dwm.normbgcolor: #070707
+dwm.selbgcolor: #1F487E
 dwm.normbordercolor: #808080 
-dwm.selbordercolor: #3cfb17
+dwm.selbordercolor: #1F487E
 
 dwm.topbar: 1
-
-! horiz inner
-dwm.gappih: 5
-! vert inner
-dwm.gappiv: 5
-! horiz outer
-dwm.gappoh: 0
-! vert outer
-dwm.gappov: 0
+dwm.mfact: 0.5
+dwm.borderpx: 2
