@@ -18,11 +18,10 @@ alias ytmp3="yt-dlp -q --progress -x --audio-format mp3 --audio-quality 0"
 # Battery percentage
 alias batperc='cat /sys/class/power_supply/BAT0/capacity'
 
-# Alias for loading NVM (Node.js)
-alias lnvm='[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && export PS1="(nvm loaded) ${PS1}"' 
-
 # Minimal Shell Prompt
 alias mprompt='export PS1="%~ $ "'
 
-# Soy (JavaScript Development) Prompt
-alias soyprompt='export PS1="%B%F{blue}%~%f%b with %B%F{green}Node.js $(node --version)%f%b $ "'
+# Piping an output into `cp2clip` saves to clipboard
+alias cp2clip="xclip -in -selection clipboard"
+
+alias srcvenv="source venv/bin/activate"
