@@ -23,10 +23,6 @@ export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 export MPLBACKEND=TkAgg # add gui for matplotlib
 export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/pythonrc.py"
 
-# NVM and Node.js
-export NVM_DIR="$HOME/.config/nvm"
-export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
-
 # Go (for Lf File Manager)
 export GOPATH="$XDG_DATA_HOME"/go
 export GOMODCACHE="$XDG_CACHE_HOME"/go/mod
