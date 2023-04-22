@@ -4,5 +4,5 @@
 
 # Can `export BOOKMARKS_FILE=""` and replace `$1` with `$BOOKMARKS_FILE`
 # sed -n "s/^BLI //p" $1 | dmenu -l 4 | cut -f 1 -d ' ' | xclip -in -selection clipboard
-grep "^http" $1 | dmenu -l 4 | cut -f 1 -d ' ' | xclip -in -selection clipboard
-# grep -o "http.*" $1 | dmenu -l 4 | cut -f 1 -d ' ' | xclip -in -selection clipboard
+# grep "^http" $1 | dmenu -l 4 | cut -f 1 -d ' ' | xclip -in -selection clipboard
+grep "http" $1 | dmenu -l 4 | grep -o "http\S*" | xclip -in -selection clipboard
