@@ -50,3 +50,7 @@ nnoremap <F2> :!clear && tree -CF --dirsfirst -L 1<CR>
 if has("autocmd")
 	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"zz" | endif
 endif
+
+" Save Vim macro for moving URL description to start of line
+" let @u='f#wD^Pa: €ýaf#D'
+let @u='^f#wD^Pa: f#D'
