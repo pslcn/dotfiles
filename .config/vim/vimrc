@@ -52,5 +52,4 @@ if has("autocmd")
 endif
 
 " Save Vim macro for moving URL description to start of line
-" let @u='f#wD^Pa: €ýaf#D'
-let @u='^f#wD^Pa: f#D'
+let @u='^f#wvg_d^Pa: f#D'
