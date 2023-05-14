@@ -9,19 +9,15 @@ alias \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
 
-# Alias for simple dotfile management
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias srcvenv="source venv/bin/activate"
+alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
 
 # YouTube video downloading
 alias ytmp3="yt-dlp -q --progress -x --audio-format mp3 --audio-quality 0"
-
-# Battery percentage
-alias batperc='cat /sys/class/power_supply/BAT0/capacity'
 
 # Minimal Shell Prompt
 alias mprompt='export PS1="%~ $ "'
 
 # Piping an output into `cp2clip` saves to clipboard
 alias cp2clip="xclip -in -selection clipboard"
-
-alias srcvenv="source venv/bin/activate"
