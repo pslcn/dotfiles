@@ -21,6 +21,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" filetype's Python plugin attempts to reset tab size
+let g:python_recommended_style=0
+filetype plugin indent on
+
 set nu
 syntax on
 set autoindent
@@ -35,7 +39,6 @@ set showmatch
 " set hlsearch
 set textwidth=0
 set formatoptions-=tc
-filetype plugin indent on
 
 " Search subfolders for `:find`
 set path+=**
