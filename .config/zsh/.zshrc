@@ -1,8 +1,10 @@
 autoload -U colors && colors 
 
-# PS1="%F{white}%n@%M:%f%F{green}%~%f%F{white}$%f " 
 PS1="%F{white}%n@%M:%f%F{cyan}%~%f%F{white}$%f " 
 # PS1="[%n@%M %~]$ " 
+
+# PS1="%F{green}%n@%M:%f%F{blue}%~%f%F{green}$%f " 
+# PS1="%F{cyan}%n@%M:%f%F{white}%~%f%F{cyan}$%f " 
 
 stty stop undef # disable ctrl-s to freeze terminal
 
@@ -18,7 +20,7 @@ HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
-compinit
+compinit -d $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
 _comp_options+=(globdots) # include hidden files
 
 # Use vim keys in tab complete menu:
