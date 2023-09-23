@@ -28,3 +28,8 @@ export JUPYTER_CONFIG_DIR=$XDG_CONFIG_HOME/jupyter
 export GOPATH="$XDG_DATA_HOME"/go
 export GOMODCACHE="$XDG_CACHE_HOME"/go/mod
 export PATH=$GOPATH/bin:$PATH
+
+# TeX Live
+export TEXMFHOME=$XDG_DATA_HOME/texmf
+export TEXMFVAR=$XDG_CACHE_HOME/texlive/texmf-var
+export TEXMFCONFIG=$XDG_CONFIG_HOME/texlive/texmf-config
