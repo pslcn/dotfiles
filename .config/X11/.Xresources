@@ -1,5 +1,7 @@
 dwm.font: JetBrains Mono :size=12
-st.font: JetBrains Mono:size=12
+!st.font: JetBrains Mono:size=12
+st.font: Iosevka:size=14
+!st.font: Comic Mono:size=14
 
 dwm.normbgcolor: #070707
 dwm.selbgcolor: #1F487E
